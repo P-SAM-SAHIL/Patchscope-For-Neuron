@@ -168,7 +168,7 @@ This pipeline directly mirrors Patchscopes methodology:
 === Experiment Results ===
 - Original Trigger Token: '3'
 - Patched Target Prompt: 'A detailed description of x is that'
-- Generated Attributes (Post-Patch): 'it is a set of all the possible outcomes of an experim
+- Generated Attributes (Post-Patch): 'it is a set of all the possible outcomes of an experiment.The set of all possible outcomes'
 
 - Neuron 8526 activation during patchscope: 3.1406
 
