@@ -161,17 +161,25 @@ This pipeline directly mirrors Patchscopes methodology:
 
 ## Results
  --- PART 1: Profiling Dataset (Activation Atlas) ---
+ 
 Profiling layer 12 neurons...
+
 100%|██████████| 150/150 [01:05<00:00, 2.31it/s]
+
 Exporting Activation Atlas to gemma2_neuron_mapping_layer_12.json...
 
 --- PART 2: Feature Extraction ---
+
 Targeting Neuron: 8526
+
 Max Activation: 9.3750 from token '3'
+
 Extracted Vector X from Layer 12, Position 94
 
 --- PART 3: SAE Verification ---
+
 Top 5 Activated SAE Features in Vector X:
+
  - Feature_315: Activation = 41.0987
  - Feature_6810: Activation = 31.1544
  - Feature_2291: Activation = 24.8089
@@ -179,7 +187,9 @@ Top 5 Activated SAE Features in Vector X:
  - Feature_11195: Activation = 17.2775
 
 --- PART 4: Patchscope Autoregressive Generation ---
+
 Target Prompt: "A detailed description of x is that"
+
 Injecting Vector X into token ' x' at position 5
 
 === Experiment Results ===
