@@ -1,6 +1,6 @@
 # Patchscope-For-Neuron
 
-
+(AI-asisted documentation)
 ---
 
 # Patchscope Residual Vector Reactivation Pipeline
@@ -26,7 +26,7 @@ This is used later to translate dense vectors into interpretable features.
 
 ---
 
-## Step 2 — Building the Activation Atlas (Profiling)
+## Step 2  Building the Activation Atlas (Profiling)
 
 ### Scanning the Dataset
 
@@ -53,7 +53,7 @@ This creates an **Activation Atlas**, mapping neurons to their strongest trigger
 
 ---
 
-## Step 3 — Feature Extraction (Isolating Vector X)
+## Step 3  Feature Extraction (Isolating Vector X)
 
 ### Target Selection
 
@@ -80,7 +80,7 @@ In Patchscopes terminology, this step extracts a **hidden representation from th
 
 ---
 
-## Step 4 — SAE Verification (Interpretability Step)
+## Step 4  SAE Verification (Interpretability Step)
 
 Vector X is passed through the Sparse Autoencoder.
 
@@ -94,7 +94,7 @@ This helps interpret *what information is encoded inside Vector X*.
 
 ---
 
-## Step 5 — Patchscope Intervention (Inject and Observe)
+## Step 5  Patchscope Intervention (Inject and Observe) 
 
 ### Target Prompt Setup
 
