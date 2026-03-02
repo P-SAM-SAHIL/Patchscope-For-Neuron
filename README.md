@@ -159,6 +159,41 @@ This pipeline directly mirrors Patchscopes methodology:
 
 ---
 
+## Results
+--- PART 2: Feature Extraction ---
+- Targeting Neuron: 8526
+- Max Activation: 9.3750 from token '3'
+- Extracted Vector X from Layer 12, Position 94
+
+=== Experiment Results ===
+- Original Trigger Token: '3'
+- Patched Target Prompt: 'A detailed description of x is that'
+- Generated Attributes (Post-Patch): 'it is a set of all the possible outcomes of an experim
+
+- Neuron 8526 activation during patchscope: 3.1406
+
+--- PART 3: SAE Verification ---
+Top 5 Activated SAE Features in Vector X:
+ - Feature_315: Activation = 41.0987
+   Neuronpedia: https://neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/315
+    - explanation : references to categories or classifications of subjects
+ - Feature_6810: Activation = 31.1544
+   Neuronpedia: https://neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6810
+   - explanation : terms related to software licensing and legal disclaimers
+ - Feature_2291: Activation = 24.8089
+   Neuronpedia: https://neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/2291
+   - explanation : echnical or mathematical symbols and terms
+ - Feature_164: Activation = 18.4591
+   Neuronpedia: https://neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/164
+   - explantion : references to Wikipedia and its articles
+ - Feature_11195: Activation = 17.2775
+   Neuronpedia: https://neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/11195
+   - explanation : references to cats
+
+
+
+
+
 ## Why This Design Works
 
 By placing:
