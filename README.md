@@ -1,6 +1,6 @@
 # Patchscope-For-Neuron
 
-(AI-asisted documentation)
+(AI-assisted documentation)
 ---
 
 # Patchscope Residual Vector Reactivation Pipeline
